@@ -1,0 +1,12 @@
+name: "my-website"
+navbar:
+  title: "Aves de Costa Rica: Familia Pipridae"
+  left:
+    - text: "Descripción"
+      href: index.html
+    - text: "Chiroxiphia linearis"
+      href: about.html
+output:
+  html_document:
+    theme: sandstone
+    highlight: textmate
