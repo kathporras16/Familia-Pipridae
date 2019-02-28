@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+
+
+
+
+<title>Una linda especie: Chiroxiphia linearis</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/sandstone.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+
+</head>
+
+<body>
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 61px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 66px;
+  margin-top: -66px;
+}
+.section h2 {
+  padding-top: 66px;
+  margin-top: -66px;
+}
+.section h3 {
+  padding-top: 66px;
+  margin-top: -66px;
+}
+.section h4 {
+  padding-top: 66px;
+  margin-top: -66px;
+}
+.section h5 {
+  padding-top: 66px;
+  margin-top: -66px;
+}
+.section h6 {
+  padding-top: 66px;
+  margin-top: -66px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+<div class="container-fluid main-container">
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Aves de Costa Rica: Familia Pipridae</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Descripción</a>
+</li>
+<li>
+  <a href="about.html">Chiroxiphia linearis</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">Una linda especie: Chiroxiphia linearis</h1>
+
+</div>
+
+
+<div id="descripcion-de-la-especie" class="section level2">
+<h2>Descripción de la especie</h2>
+<br />
+<br />
+
+<p align="justify">
+<p>Mide 11,5 cm y pesa 19 g. Las timoneras centrales alargadas le agregan de 10 a 15 cm al largo total de los machos adultos, y de 2 a 3 cm al de las hembras. Poseen frente abrupta y patas anaranjadas distintivas.</p>
+<p>El macho es eminentemente negro, pero la coronilla, incluso la cresta bífida en la parte de atrás de la coronilla, es de color carmesí resplandeciente. La espalda es azul celeste, y muestra las timoneras centrales largas y muy angostas. La hembra es verde oliva por encima y en el pecho, y exhibe la garganta más clara con un tinte grisáceo. Por debajo, la región posterior es oliva pálido, y se torna blancuzco en la parte baja del abdomen y la región infracaudal. En raras ocasiones presenta algo de rojo en la coronilla.</p>
+Los ejemplares inmaduros requieren de 3 a 4 años para adquirir el plumaje definitivo de adulto; al año tienen la coronilla roja, la cara fusca y las timoneras centrales más o menos alargadas. A los 2 años tienen el resto de la cabeza negruzca, algo de azul en la espalda y negro por debajo. Los especímenes juveniles son similares a la hembra adulta, pero con el abdomen algo más claro.
+</p>
+<p align="center">
+<img src="imagenes/toledo.jpg" width="300" />
+</p>
+<p align="justify">
+</div>
+<div id="distribucion" class="section level2">
+<h2>Distribución</h2>
+<br />
+<br />
+Esta especie se distribuye desde México hasta la parte norte de Costa Rica.
+</p>
+<p align="center">
+<img src="imagenes/distribuci.png" width="300" />
+</p>
+</div>
+<div id="alimentacion" class="section level2">
+<h2>Alimentación</h2>
+<br />
+<br />
+
+<p align="justify">
+Al igual que otros, estos pájaros comen insectos y bayas. Se alimentan de frutos, especialmente de “tucuico papaturro de pava” (Ardisia revoluta). También comen frutos de “huevos de caballo” (Stemmadenia donnell-smithii). Los individuos de esta especie aparentemente conocen la localización de los árboles en fructificación de su territorio, a los que visitan cada día, cada estación, y año tras año. Se les ha observado consumir frutos de “lagarto jobo” (Sciadodendron excelsum). El saltarín vuela para atrapar frutas, especialmente la de arbustos de sotobosque en hojas oscuras.
+</p>
+</div>
+<div id="reproduccion" class="section level2">
+<h2>Reproducción</h2>
+<br />
+<br />
+
+<p align="justify">
+<p>Parejas o tríos de machos realizan despliegues de cortejo en leks en áreas densas y enmarañadas con buena sombra. Desde estaciones separadas cerca de 30 cm, dos machos (un dominante (alfa) y un subordinado (beta)) realizan saltos en revoloteo, dirigiendo directamente hacia arriba para caer nuevamente en el mismo punto; a medida que aumente el “tempo” del baile, los saltos se vuelven más bajos. En esta danza llamada “el baile de la carreta”, que realizan generalmente cuando hay una hembra en su presencia, cada macho a su turno revolotea hacia arriba y atrás para aterrizar en el punto en que su compañero acaba de dejar libre arrastrándose hacia adelante.</p>
+<p>Solo un macho, aquel que con el plumaje de adulto más completo, si es que hay alguna diferencia; copulará con la hembra. El éxito del apareamiento está correlacionado con el porcentaje, duración o persistencia del despliegue de cortejo; esto sugiere que la selección sexual influencia la cantidad de despliegues efectuados por los machos. Son aves muy sensibles a cualquier tipo de disturbio y los despliegues se interrumpen y se reinician continuamente. Finalmente, cuando el despliegue ha terminado (esto es señalado con una nota de tono alto emitida por un macho dominante (alpha)), un macho ejecuta un único despliegue precopulatorio para la hembra, que para entonces se encuentra en la percha del despliegue. El macho cambia de percha y describe un círculo horizontal (de varios metros de diámetro) alrededor de la hembra; pasa de percha en percha, con un tipo de vuelo flotante muy lento, parecido al vuelo de la mariposa azul (Morpho sp.). Si este despliegue es exitoso, sobreviene la copulación y la hembra se retira sola para criar los pichones. Los científicos se han preguntado por qué el macho dominante no participa en este momento, a pesar de toda la energía que consume en el ritual de cortejo, cuando no llega a aparearse, a pesar de todo el esfuerzo que ha dedicado a cabo. Ellos han llegado a la conclusión de que parejas de sexo masculino (formadas por un macho alpha y un beta subordinado) permanecen juntos en una amplia relación de hasta diez años, que es particularmente fuerte durante la temporada reproductiva, no solo danzando, pero también realizando tareas más rutinarias. Las parejas de machos aparentemente mantienen la relación también fuera de la temporada reproductiva.</p>
+Su nido consiste en una copa poco profunda sujeta por un lado a una horqueta horizontal. Está hecho de micelios de hongos, musgo, hojas de hierbas, pecíolos y telaraña, con hojas secas colgantes en la parte de afuera. Se encuentra a una altura de 6 a 20 dm, casi siempre sobre una quebrada seca o un espacio abierto. Ponen 2 huevos y menos frecuentemente, uno de color ante, con manchas café chocolate entre escasas o abundantes, que miden de 20,3 a 24 mm de largo y de 15,5 a 18 mm de ancho. Se reproducen de abril a julio. La hembra remueve las semillas, después que los pichones regurgitan, al igual que los excrementos.
+</p>
+<p align="center">
+<img src="imagenes/pareja.jpg" width="300" />
+</p>
+</div>
+<div id="vocalizacion" class="section level2">
+<h2>Vocalización</h2>
+<br />
+<br />
+
+<p align="justify">
+El saltarín colilargo tiene un repertorio vocal particularmente amplio, que posiblemente se explica al derivar de su sistema social complejo y de sus rituales de cortejo. Diferente de otras especies de saltarines, estos no utilizan sonidos mecánicos en sus vcalizaciones, como los estallidos producidos con las alas o con el pico. En cambio, poseen más de treinta llamados. Estos llamados han sido fonéticamente descritos como “toleido”; “uit”; “oung”; “nyanyaounh”; “bazz-uiint”; “tiamuu”; “uiit”; “waanh”; “dududu”; “tudlilu/tuhuiiko/federico”; “juiuo”; “chitter”.
+</p>
+<div id="sonograma-de-canto-y-sus-metricas" class="section level3">
+<h3>Sonograma de canto y sus métricas</h3>
+<br />
+<br />
+
+<p align="center">
+<img src="imagenes/sonograma1.png" />
+</p>
+<p align="center">
+<img src="imagenes/tabla1.png" />
+</p>
+</div>
+<div id="sonograma-de-llamado-y-sus-metricas" class="section level3">
+<h3>Sonograma de llamado y sus métricas</h3>
+<br />
+<br />
+
+<p align="center">
+<img src="imagenes/sonograma2.png" />
+</p>
+<p align="center">
+<img src="imagenes/tabla2.png" />
+</p>
+</div>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
